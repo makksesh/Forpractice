@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
+#include "Person.h"
 
 int main()
 {
@@ -8,5 +9,9 @@ int main()
 	cout << "Привет Мир!\n";
 
 	cout << "Класс человек: " << endl;
+
+	Person a(2001, "Maks");
+	a.printPerson();
+	
 }
 
